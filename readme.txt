@@ -1,2 +1,20 @@
-this ia an E-Commerece site which can be used by different company for storing their product data and selling their product online. it will contain frontend and backend.
-frontend will be created using html, css,bootstrap and javascript and backend will be created using python and flask.
+e-commerce/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   ├── user.py
+│   │   │   ├── product.py
+│   │   │   ├── order.py
+│   │   │   └── category.py
+│   │   ├── routes/
+│   │   │   ├── __init__.py
+│   │   │   ├── auth.py
+│   │   │   ├── product.py
+│   │   │   └── order.py
+│   │   ├── static/
+│   │   └── templates/
+│   ├── config.py
+│   ├── requirements.txt
+│   └── run.py 
